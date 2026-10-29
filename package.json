@@ -1,6 +1,6 @@
 {
   "name": "@deepwhale-cn/dsh-legal-cite-check",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "深鲸引用核验：抽出文书里的《法名》第 N 条、法释文号、案号，核验是否引用已废止旧法、条号越界或需人工核验",
   "type": "module",
   "license": "MIT",
