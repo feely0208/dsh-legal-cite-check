@@ -1,0 +1,61 @@
+{
+  "_note": "离线法规索引。只收录能确认的元数据；article_count 为 null 表示未收条数，不做越界判断。核对日期 2026-10。正式引用以国家法律法规数据库（flk.npc.gov.cn）为准。",
+  "checked": "2026-10",
+  "laws": [
+    { "name": "中华人民共和国民法典", "aliases": ["民法典"], "article_count": 1260, "status": "effective", "effective_from": "2021-01-01", "source": "中华人民共和国主席令第四十五号" },
+    { "name": "中华人民共和国民事诉讼法", "aliases": ["民事诉讼法", "民诉法"], "article_count": null, "status": "effective", "note": "2023 年修正（2024-01-01 施行），条文序号有调整，引用前请核对现行文本" },
+    { "name": "中华人民共和国刑事诉讼法", "aliases": ["刑事诉讼法", "刑诉法"], "article_count": null, "status": "effective", "note": "2018 年修正" },
+    { "name": "中华人民共和国行政诉讼法", "aliases": ["行政诉讼法"], "article_count": 103, "status": "effective", "note": "2017 年修正" },
+    { "name": "中华人民共和国刑法", "aliases": ["刑法"], "article_count": 452, "status": "effective", "note": "含刑法修正案（十二），2024-03-01 施行" },
+    { "name": "中华人民共和国劳动合同法", "aliases": ["劳动合同法"], "article_count": 98, "status": "effective", "note": "2012 年修正" },
+    { "name": "中华人民共和国劳动法", "aliases": ["劳动法"], "article_count": 107, "status": "effective" },
+    { "name": "中华人民共和国劳动争议调解仲裁法", "aliases": ["劳动争议调解仲裁法", "劳动仲裁法"], "article_count": 54, "status": "effective" },
+    { "name": "中华人民共和国社会保险法", "aliases": ["社会保险法", "社保法"], "article_count": 98, "status": "effective", "note": "2018 年修正" },
+    { "name": "中华人民共和国公司法", "aliases": ["公司法"], "article_count": 266, "status": "effective", "effective_from": "2024-07-01", "note": "2023 年修订，条文序号与旧法不同，引用旧条号需重新核对" },
+    { "name": "中华人民共和国合伙企业法", "aliases": ["合伙企业法"], "article_count": 109, "status": "effective" },
+    { "name": "中华人民共和国企业破产法", "aliases": ["企业破产法", "破产法"], "article_count": 136, "status": "effective" },
+    { "name": "中华人民共和国专利法", "aliases": ["专利法"], "article_count": 82, "status": "effective", "note": "2020 年修正" },
+    { "name": "中华人民共和国商标法", "aliases": ["商标法"], "article_count": 73, "status": "effective", "note": "2019 年修正" },
+    { "name": "中华人民共和国著作权法", "aliases": ["著作权法"], "article_count": 67, "status": "effective", "note": "2020 年修正" },
+    { "name": "中华人民共和国反不正当竞争法", "aliases": ["反不正当竞争法"], "article_count": 33, "status": "effective", "note": "2025 年修订，条文有调整" },
+    { "name": "中华人民共和国个人信息保护法", "aliases": ["个人信息保护法", "个保法"], "article_count": 74, "status": "effective", "effective_from": "2021-11-01" },
+    { "name": "中华人民共和国数据安全法", "aliases": ["数据安全法"], "article_count": 55, "status": "effective", "effective_from": "2021-09-01" },
+    { "name": "中华人民共和国网络安全法", "aliases": ["网络安全法"], "article_count": 79, "status": "effective", "note": "2025 年修正" },
+    { "name": "中华人民共和国消费者权益保护法", "aliases": ["消费者权益保护法", "消法"], "article_count": 63, "status": "effective", "note": "2013 年修正" },
+    { "name": "中华人民共和国广告法", "aliases": ["广告法"], "article_count": 75, "status": "effective", "note": "2021 年修正" },
+    { "name": "中华人民共和国食品安全法", "aliases": ["食品安全法"], "article_count": 154, "status": "effective", "note": "2021 年修正" },
+    { "name": "中华人民共和国道路交通安全法", "aliases": ["道路交通安全法"], "article_count": 124, "status": "effective", "note": "2021 年修正" },
+    { "name": "中华人民共和国土地管理法", "aliases": ["土地管理法"], "article_count": 87, "status": "effective", "note": "2019 年修正" },
+    { "name": "中华人民共和国城市房地产管理法", "aliases": ["城市房地产管理法"], "article_count": 73, "status": "effective", "note": "2019 年修正" },
+    { "name": "中华人民共和国民法典合同编司法解释", "aliases": ["最高人民法院关于适用《中华人民共和国民法典》合同编通则若干问题的解释", "合同编通则解释"], "article_count": 69, "status": "effective", "effective_from": "2023-12-05", "doc_no": "法释〔2023〕13号" },
+    { "name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）", "aliases": ["劳动争议解释（一）", "劳动争议解释(一)"], "article_count": 55, "status": "effective", "effective_from": "2021-01-01", "doc_no": "法释〔2020〕26号" },
+    { "name": "最高人民法院关于适用《中华人民共和国民事诉讼法》的解释", "aliases": ["民诉法解释", "民事诉讼法解释"], "article_count": null, "status": "effective", "note": "2022 年修正" },
+    { "name": "工伤保险条例", "aliases": ["工伤保险条例"], "article_count": 67, "status": "effective", "note": "2010 年修订" },
+    { "name": "中华人民共和国劳动合同法实施条例", "aliases": ["劳动合同法实施条例"], "article_count": 38, "status": "effective" }
+  ],
+  "superseded_laws": [
+    { "name": "中华人民共和国合同法", "aliases": ["合同法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "民法典施行后废止，合同类条文改引民法典合同编" },
+    { "name": "中华人民共和国婚姻法", "aliases": ["婚姻法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "婚姻家庭编" },
+    { "name": "中华人民共和国继承法", "aliases": ["继承法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "继承编" },
+    { "name": "中华人民共和国物权法", "aliases": ["物权法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "物权编" },
+    { "name": "中华人民共和国担保法", "aliases": ["担保法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "担保制度规定于民法典及担保制度解释" },
+    { "name": "中华人民共和国侵权责任法", "aliases": ["侵权责任法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01", "note": "侵权责任编" },
+    { "name": "中华人民共和国民法总则", "aliases": ["民法总则"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01" },
+    { "name": "中华人民共和国民法通则", "aliases": ["民法通则"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01" },
+    { "name": "中华人民共和国收养法", "aliases": ["收养法"], "replaced_by": "中华人民共和国民法典", "invalid_since": "2021-01-01" },
+    { "name": "中华人民共和国合同法司法解释（一）", "aliases": ["合同法解释（一）", "合同法解释(一)"], "replaced_by": "民法典合同编通则解释", "invalid_since": "2021-01-01" },
+    { "name": "中华人民共和国合同法司法解释（二）", "aliases": ["合同法解释（二）", "合同法解释(二)"], "replaced_by": "民法典合同编通则解释", "invalid_since": "2021-01-01" },
+    { "name": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释", "aliases": ["劳动争议解释", "劳动争议案件解释"], "replaced_by": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）", "invalid_since": "2021-01-01", "note": "原法释〔2001〕14号等四件旧解释已被法释〔2020〕26号吸收" }
+  ],
+  "superseded_docs": [
+    { "doc_no": "法释〔2001〕14号", "name": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释", "replaced_by": "法释〔2020〕26号", "invalid_since": "2021-01-01" },
+    { "doc_no": "法释〔2006〕6号", "name": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（二）", "replaced_by": "法释〔2020〕26号", "invalid_since": "2021-01-01" },
+    { "doc_no": "法释〔2010〕12号", "name": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（三）", "replaced_by": "法释〔2020〕26号", "invalid_since": "2021-01-01" },
+    { "doc_no": "法释〔2013〕4号", "name": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（四）", "replaced_by": "法释〔2020〕26号", "invalid_since": "2021-01-01" }
+  ],
+  "renumbered_laws": [
+    { "name": "中华人民共和国公司法", "note": "2023 年修订、2024-07-01 施行，条文由 218 条增至 266 条并整体重排；引用旧条号必须按新法重新核对" },
+    { "name": "中华人民共和国民事诉讼法", "note": "2021、2023 年两次修正，涉外编与部分条文序号有调整" },
+    { "name": "中华人民共和国行政处罚法", "note": "2021 年修订，条文序号调整" }
+  ]
+}

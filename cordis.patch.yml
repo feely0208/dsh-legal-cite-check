@@ -1,0 +1,4 @@
+# @deepwhale-cn/dsh-legal-cite-check 的组合层
+- insert:
+    - id: legal-cite-check
+      name: '@deepwhale-cn/dsh-legal-cite-check'

@@ -1,0 +1,68 @@
+{
+  "name": "@deepwhale-cn/dsh-legal-cite-check",
+  "version": "0.1.0",
+  "description": "深鲸引用核验：抽出文书里的《法名》第 N 条、法释文号、案号，核验是否引用已废止旧法、条号越界或需人工核验",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "skill",
+    "legal",
+    "citation",
+    "引用核验",
+    "法条",
+    "法律"
+  ],
+  "files": [
+    "lib",
+    "bin",
+    "skill",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./core": "./lib/core.mjs",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "dsh-legal-cite-check": "./bin/cli.mjs"
+  },
+  "engines": {
+    "dsh": ">=0.1.0-rc.6 <0.3.0",
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "dependencies": {
+    "@deepwhale-cn/dsh-guard-core": "^0.10.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill": "*"
+  },
+  "author": "温州深鲸智能科技有限公司 <contact@deepwhale.org.cn>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feely0208/dsh-legal-cite-check.git"
+  },
+  "homepage": "https://www.deepwhale.org.cn/skills.html",
+  "bugs": {
+    "url": "https://github.com/feely0208/dsh-legal-cite-check/issues"
+  }
+}
