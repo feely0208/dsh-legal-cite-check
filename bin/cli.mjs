@@ -52,7 +52,7 @@ const opts = {
   strict: has('strict'),
 };
 
-const r = has('json') ? runJson(opts) : run(opts);
+const r = has('json') ? await runJson(opts) : await run(opts);
 if (!r.ok) {
   console.error('❌ ' + (r.text || '核验失败'));
   process.exit(2);
